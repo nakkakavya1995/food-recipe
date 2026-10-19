@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+venv/
+backend/venv/
+.venv/
+backend/.venv/
+
+# Environment variables & secrets
+.env
+*.env
+backend/.env
+frontend/.env
+!.env.example
+!backend/.env.example
+!frontend/.env.example
+
+# Production builds
+dist/
+frontend/dist/
+build/
+
+# Python bytecode & cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+.coverage
+htmlcov/
+
+# Static uploads & media
+backend/uploads/images/*
+!backend/uploads/images/.gitkeep
+backend/uploads/videos/*
+!backend/uploads/videos/.gitkeep
+backend/uploads/steps/*
+!backend/uploads/steps/.gitkeep
+
+# IDEs & System files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
